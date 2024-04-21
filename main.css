@@ -30,6 +30,7 @@ footer {
 
 aside {
 	flex: 0.3;
+	flex-direction: column;
 	text-indent: 50px;
 	background-color: #FEFAE0;
 
