@@ -1,0 +1,104 @@
+body {
+	margin:0;
+	padding:0;
+	display:flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+header {
+	flex: 1;
+	text-align: center;
+	background-color: #FEFAE0;
+	display: flex;
+	flex-direction: row;
+}
+
+content {
+	flex: 3;
+	background-color: #FEFAE0;
+	display: flex;
+	flex-direction: row;
+}
+
+footer {
+	flex: 0.5;
+	text-indent: 50px;
+	background-color: #FEFAE0;
+	text-align: center;
+}
+
+aside {
+	flex: 0.3;
+	text-indent: 50px;
+	background-color: #FEFAE0;
+
+
+}
+
+.homepage_navigation {
+	flex: 0.15;
+	background-color: #FEFAE0;
+
+
+}
+
+.header_images {
+	flex: 0;
+	max-width: 200px;
+	max-height: 200px;
+
+}
+
+.page_title{
+	flex: 1;
+	background-color: #FEFAE0;
+
+}
+
+.content_holder{
+	flex: 0.5;
+	background-color: #FEFAE0;
+	display:flex;
+	flex-direction: column;
+
+}
+
+.image_holder{
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background-color: #FEFAE0;
+	max-width: 50vw;
+	position: relative;
+	
+
+	border-bottom-style: dashed;
+	border-color: #FAEDCD;
+	
+
+}
+
+.content_images{
+	flex: 1;
+	max-width: 40%;
+	max-height: 90%;
+	object-fit: contain;
+	margin: 5px;
+	
+}
+
+.knit_tutorial{
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.purl_tutorial{
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	
+}
