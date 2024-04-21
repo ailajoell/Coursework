@@ -22,10 +22,11 @@ content {
 }
 
 footer {
-	flex: 0.5;
+	flex: 1;
 	text-indent: 50px;
 	background-color: #FEFAE0;
 	text-align: center;
+	
 }
 
 aside {
@@ -84,7 +85,7 @@ aside {
 
 .content_images{
 	flex: 1;
-	max-width: 40%;
+	max-width: 50%;
 	max-height: 90%;
 	object-fit: contain;
 	margin: 5px;
@@ -103,4 +104,10 @@ aside {
 	display: flex;
 	flex-direction: row;
 	
+}
+
+.pattern_image{
+	max-width: 50%;
+	max-height: 50%;
+	margin: auto;
 }
