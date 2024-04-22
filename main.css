@@ -82,8 +82,8 @@ aside {
 
 .content_images{
 	flex: 1;
-	max-width: 40%;
-	max-height: 80%;
+	max-width: 60%;
+	max-height: 90%;
 	object-fit: contain;
 	margin: 10px;
 	
