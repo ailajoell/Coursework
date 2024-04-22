@@ -12,6 +12,7 @@ header {
 	background-color: #FEFAE0;
 	display: flex;
 	flex-direction: row;
+
 }
 
 content {
@@ -19,6 +20,7 @@ content {
 	background-color: #FEFAE0;
 	display: flex;
 	flex-direction: row;
+
 }
 
 footer {
@@ -36,20 +38,18 @@ aside {
 	text-indent: 50px;
 	color: #FEFAE0;
 
-
 }
 
 .homepage_navigation {
 	flex: 0.15;
 	background-color: #FEFAE0;
 
-
 }
 
 .header_images {
 	flex: 0;
-	max-width: 200px;
-	max-height: 200px;
+	max-width: 250px;
+	max-height: 250px;
 
 }
 
@@ -75,20 +75,17 @@ aside {
 	background-color: #FEFAE0;
 	max-width: 50vw;
 	position: relative;
-	
-
 	border-bottom-style: dashed;
 	border-color: #FAEDCD;
-	
 
 }
 
 .content_images{
 	flex: 1;
-	max-width: 50%;
-	max-height: 90%;
+	max-width: 40%;
+	max-height: 80%;
 	object-fit: contain;
-	margin: 5px;
+	margin: 10px;
 	
 }
 
@@ -110,4 +107,5 @@ aside {
 	max-width: 50%;
 	max-height: 50%;
 	margin: auto;
+
 }
